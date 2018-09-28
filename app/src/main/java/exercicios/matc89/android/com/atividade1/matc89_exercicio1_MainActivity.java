@@ -29,7 +29,7 @@ public class matc89_exercicio1_MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String textoQueDigiteiNaCaixa = textoMudado.getText().toString();
 
-                    textoDigitado.setText("Alô, X");
+                    textoDigitado.setText("Alô " + textoQueDigiteiNaCaixa);
             }
         });
     }
